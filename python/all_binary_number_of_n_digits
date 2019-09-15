@@ -1,0 +1,7 @@
+import math
+n = int(input("Enter an integer"))      # for N digits
+for i in range(int(math.pow(2,n))):
+    b = bin(i)[2:]
+    l = len(b)
+    b = str(0) * (n - l) + b
+    print(b)
