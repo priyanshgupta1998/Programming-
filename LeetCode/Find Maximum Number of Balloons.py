@@ -25,7 +25,7 @@ class Solution:
             num = hash.get('l')//2;
         
         if num >= hash.get('o')//2:
-            num = hash.get('o')/2;
+            num = hash.get('o')//2;
         
         if num >= hash.get('n'):
             num = hash.get('n');
